@@ -101,36 +101,7 @@ Contributed to data analysis, preprocessing, automation, visualization, and repo
 💻 Problem Solving: 500+ DSA problems solved.
 🧠 Graph Theory: 9th place in a college-level coding camp.
 06 · Contribution Activity
-<div align="center"> <!-- This animation appears after the GitHub Actions workflow publishes the SVGs to the output branch. --> <img src="https://raw.githubusercontent.com/mylarjeevan/mylarjeevan/output/github-contribution-grid-snake-dark.svg" alt="Snake animation moving across the GitHub contribution grid" width="100%" /> </div> <details> <summary><strong>🐍 Snake animation setup (one-time)</strong></summary>
-If the snake image is broken, add the workflow below at .github/workflows/snake.yml, commit it, and run it from the Actions tab. The animation appears only after the workflow succeeds:
-
-name: Generate contribution snake
-
-on:
-  schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
-
-permissions:
-  contents: write
-
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: Platane/snk@v3
-        with:
-          github_user_name: mylarjeevan
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-      - uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-</details>
+<div align="center"> <!-- This animation appears after the GitHub Actions workflow publishes the SVGs to the output branch. --> </div> <details>
 07 · GitHub Statistics
 <div align="center"> <img height="170" src="https://github-readme-stats.vercel.app/api?username=MylarJeevan&show_icons=true&hide_border=true&rank_icon=github&bg_color=0D1117&title_color=8BADD9&text_color=B8C4D6&icon_color=7AA2D6" alt="GitHub statistics" /> <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MylarJeevan&layout=compact&hide_border=true&bg_color=0D1117&title_color=8BADD9&text_color=B8C4D6&langs_count=6" alt="Most used languages" />
 
